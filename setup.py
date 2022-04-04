@@ -25,7 +25,7 @@ def find_version(*file_paths):
 with open("README.md", encoding="utf8") as f:
     readme = f.read()
 
-DISTNAME = "bandits"
+DISTNAME = "flamingbandits"
 DESCRIPTION = "Multi-armed Bandits in PyTorch."
 LONG_DESCRIPTION = readme
 AUTHOR = "Abhimanyu Dubey"
